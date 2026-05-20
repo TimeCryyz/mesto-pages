@@ -8,7 +8,7 @@
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Mesto</title>
-    <script type="module" crossorigin src="./assets/index-BZHIWi9o.js"></script>
+    <script type="module" crossorigin src="./assets/index-Ce4uCih8.js"></script>
     <link rel="stylesheet" crossorigin href="./assets/index-D2z4Cjqv.css">
   </head>
   <body class="page">
@@ -56,6 +56,8 @@
                 required
                 minlength="2"
                 maxlength="40"
+                pattern="[a-zA-Zа-яА-ЯёЁ\-\s]+"
+                title="Только буквы, дефис и пробелы"
               />
               <span class="popup__error"></span>
             </label>
@@ -98,6 +100,8 @@
                 required
                 minlength="2"
                 maxlength="30"
+                pattern="[a-zA-Zа-яА-ЯёЁ\-\s]+"
+                title="Только буквы, дефис и пробелы"
               />
               <span class="popup__error"></span>
             </label>
